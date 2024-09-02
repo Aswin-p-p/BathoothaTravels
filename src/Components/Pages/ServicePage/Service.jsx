@@ -3,12 +3,13 @@ import Navbar from '../../ReusableComponents/MainHeader/Navbar'
 import Footer from '../../ReusableComponents/Footer/Footer'
 import ServiceContainer from '../../ReusableComponents/ServiceComponent/ServiceContainer'
 import ServicePackage from '../../ReusableComponents/ServiceComponent/ServicePackage'
+import Header from '../../ReusableComponents/Header/Header'
 
 
 function Service() {
   return (
    <>
-   <Navbar/>
+   <Header/>
      <ServiceContainer/>
      <ServicePackage/>
    <Footer/>

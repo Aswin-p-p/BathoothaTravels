@@ -33,7 +33,7 @@
     text-decoration: none;
 }
 body{
-
+margin: 0 80px !important; 
 position: relative;
 /* overflow-x: hidden !important; */
 }

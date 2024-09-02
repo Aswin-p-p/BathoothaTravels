@@ -24,7 +24,7 @@
   .bg-contents{
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 40px 0px;
     gap: 50px;
   }
   .bg-col1{

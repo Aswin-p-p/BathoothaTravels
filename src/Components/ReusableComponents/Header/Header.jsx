@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Heade.css'
+
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -14,9 +15,25 @@ function Header() {
     setIsActive(!isActive);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector('.navheader');
+      if (header) {
+        header.classList.toggle('scrolled', window.scrollY > 50);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-        <header>
+        <header className='navheader'>
     <div className="navbar">
        <div className="logo"><img src='assets/homeimg/logo.png' alt="" /></div>
        <div className={`nav ${isActive ? 'active' : ''} ${isHidden ? 'hide' : ''}`}>
@@ -28,10 +45,10 @@ function Header() {
         </div>
 
        <ul className="menuBar">
-      
+       <li><a href="/">Home</a></li>
             <li><a href="">About Us</a></li>
             <li><a href="/service">Services</a></li>
-            <li><a href="">Holiday Packages</a></li>
+            <li><a href="">Booking</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="">Contact Us</a></li>
         </ul>

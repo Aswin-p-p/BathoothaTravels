@@ -1,8 +1,11 @@
 
 
+.navheader.scrolled {
+  background-color: white;
+}
 header {
     position: fixed;
-    top: 24px;
+    top: 0px;
     left: 0;
     right: 0;
     width: 100% ;
