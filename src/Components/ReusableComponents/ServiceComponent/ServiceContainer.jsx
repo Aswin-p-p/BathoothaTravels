@@ -11,7 +11,7 @@ function ServiceContainer() {
     </div>
      </div>
      <div className="service-theme">
-        <img src="assets/serviceimage/ser-banner.jpg" alt=""/>
+        <img src="assets/serviceimage/sevice-banner.jpg" alt=""/>
 
         <div  className="svRow">
             <div  className="colnSv">
