@@ -45,7 +45,7 @@ function Footer() {
       <div className="copyright">
         <p>
           Copyright &copy; 2024 bathootha | 
-          <a href="/reserve">Privacy Policy</a> |
+          <a href="">Privacy Policy</a> |
           <a href=""> About Us</a> |
           <a href="/faq"> FAQ</a> |
           <a href=""> Contact Support</a>
