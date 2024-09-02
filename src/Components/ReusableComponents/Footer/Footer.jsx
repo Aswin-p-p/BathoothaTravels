@@ -48,7 +48,7 @@ function Footer() {
           <a href="">Privacy Policy</a> |
           <a href=""> About Us</a> |
           <a href="/faq"> FAQ</a> |
-          <a href=""> Contact Support</a>
+          <a href="/contactus"> Contact Support</a>
         </p>
       </div>
     </>

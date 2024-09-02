@@ -1,0 +1,225 @@
+.AB-container{
+    margin-top: 8%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+  }
+  .AB-container h2{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    font-size: 41px;
+  }
+  .AB-container p{
+    text-align: center;
+    font-family: 'Aileron-Light';
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .booking-details{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: #029094;
+    color: #fff;
+    padding: 40px 90px;
+    /* gap: 10%; */
+  }
+  .bk-coln{
+    width: 50%;
+    margin-top: 5%;
+  }
+  .bk-coln1{
+    max-width: 600px;
+    position: relative;
+  }
+  .breakLine{
+    width: 1px;
+    height: 450px;
+    background-color: #fff;
+    margin: 0 63px;
+  }
+  .bk-coln h2{
+    font-family: 'Aileron-UltraLight';
+    /* max-width: 500px; */
+  }.bk-coln p{
+    font-family: 'Aileron-UltraLight';
+    font-size: 18px;
+  }
+  
+  .bk-formHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+  .bk-formHead h4{
+    font-family: 'Aileron-Thin';
+  }
+  .bk-formHead h4 span{
+    font-family: 'Aileron-Bold';
+  }
+  .bk-icons{
+    display: flex;
+    gap: 15px;
+  
+  }
+  .iconSec img{
+    width: 20px;
+    filter: brightness(0) invert(1);
+  }
+  .iconSec{
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+  }
+  .boform{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .boform .bookinput{
+    /* width: 300px; */
+    margin: 8px 0;
+    padding: 8px 35px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #000;
+  }
+  .boform .bookinput::placeholder{
+    font-size: 15px;
+    color: #000;
+  }
+  .searchBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .searchBtn button{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: none;
+    background-color: #aee5be;
+    font-family: 'Aileron-Regular';
+  }
+
+  /* responsivness */
+
+  @media(max-width:1024px){
+    .AB-container{
+      margin-top: 12%;
+      
+    }
+}
+@media(max-width:768px){
+    .AB-container{
+        margin-top: 14%;
+        
+      }
+}
+@media(max-width:600px){
+    .AB-container{
+        margin-top: 20%;
+        
+      }
+}
+@media(max-width:450px){
+    .AB-container{
+        margin-top: 25%;
+        padding: 0 30px;
+      }
+}
+@media(max-width:400px){
+    .AB-container{
+        margin-top: 30%;
+      }
+      .AB-container h2{
+        text-align: center;
+        font-family: 'Aileron-UltraLight';
+        font-size: 38px;
+      }
+      .AB-container p{
+        text-align: center;
+        font-family: 'Aileron-Light';
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+}
+
+
+
+  /* responsivness */
+
+  
+  @media(max-width:1440px){
+    .boform .bookinput{
+        width: 100%;
+        margin: 8px 0;
+        padding: 8px 25px;
+        border-radius: 50px;
+        outline: none;
+        border: 1px solid #000;
+      }
+}
+
+@media(max-width:1024px){
+    .booking-details{
+        display: block;
+        /* align-items: center; */
+        justify-content: space-between;
+        background-color: #029094;
+        color: #fff;
+        padding: 40px 90px;
+        /* gap: 10%; */
+      }
+      .breakLine{
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        margin: 0 0;
+      } 
+      .bk-coln{
+        width: 100%;
+        margin-top: 0;
+        margin: 20px 0;
+      }
+      .bk-coln1{
+        max-width: 100%;
+        position: relative;
+      }
+      .bk-coln h2{
+        font-family: 'Aileron-UltraLight';
+        max-width: 100%;
+      }
+}
+@media(max-width:768px){
+    .booking-details{
+        background-color: #029094;
+        color: #fff;
+        padding: 40px 40px;
+      }
+      
+      .formPrice .bookinput{
+        width: 100%;
+     
+      }
+      .formPrice .bookinput{
+        width: 100%;
+
+      }
+}
+
+@media(max-width:600px){
+    .bk-formHead{
+        display: block;
+      }
+      .bk-icons{
+        margin-top: 10px;
+      }
+}

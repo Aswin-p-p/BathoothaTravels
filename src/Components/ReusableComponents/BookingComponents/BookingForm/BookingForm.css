@@ -1,0 +1,105 @@
+
+.bk-lowPrice{
+    padding: 0 40px;
+  }
+  
+  .aireoplane{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aireoplane img{
+    width: 480px;
+  }
+  .low{
+    margin-top: 30px;
+  }
+  .bkicon{
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+  }
+  .bkicon img{
+    width: 20px;
+    /* filter: brightness(1) ; */
+  }
+  .formPrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .formPrice .bookform{
+    width: 350px;
+    margin: 8px 0;
+    padding: 8px 25px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #000;
+  }
+  .formPrice .bookform::placeholder{
+    color: #000;
+    font-size: 15px;
+  }
+  .scrnshot{
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .scrnshot h5{
+    font-family: 'Aileron-Bold';
+    color: #029094;
+  }
+  .scrnshot p{
+    font-family: 'Aileron-Bold';
+  }
+  .frmPrice .bookform{
+    width: 350px;
+    margin: 8px 5px;
+    padding: 8px 25px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #000;
+  }
+  .frmPrice .bookform::placeholder{
+    color: #000;
+    font-size: 15px;
+  }
+  
+  .submitBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .submitBtn button{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: none;
+    background-color: #029094;
+    font-family: 'Aileron-Regular';
+    color: #fff;
+  }
+
+  /* responsivness */
+  @media(max-width:600px){
+    .bk-formHead{
+        display: block;
+      }
+      .bk-icons{
+        margin-top: 10px;
+      }
+  }
+
+  @media(max-width:500px){
+    .aireoplane img{
+        width: 100%;
+      }
+  }
+  @media(max-width:768px){
+    .frmPrice .bookform{
+        width: 100%;
+     
+      }
+  }

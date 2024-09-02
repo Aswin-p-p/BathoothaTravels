@@ -1,3 +1,11 @@
+.forms-coln {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.forms-coln.show {
+  opacity: 1;
+}
 
 .home-container{
   /* margin: 0 80px !important;  */
@@ -54,7 +62,7 @@
   transition: 0.4s linear;
   opacity: 0;
   visibility: hidden;
-  transform: translateX(-40px);
+  /* transform: translateX(-40px); */
 }
 
 .btn-close2,.btn-close3{
@@ -75,7 +83,7 @@ font-size: 18px;
 .forms-coln.show{
     opacity: 1;
     visibility: visible;
-    transform: translateX(0);
+    /* transform: translateX(0); */
 }
 .form-btns:hover {
   background-color: #00666a;
@@ -171,12 +179,12 @@ font-family: 'Aileron-Thin';
   transition: 0.3s linear;
   opacity: 0;
   visibility: hidden;
-  transform: translateX(-40px);
+  /* transform: translateX(-40px); */
 }
 .forms-coln2.show1{
     opacity: 1;
     visibility: visible;
-    transform: translateX(0);
+    /* transform: translateX(0); */
 }
 .hideFrm1{
   display: none;
