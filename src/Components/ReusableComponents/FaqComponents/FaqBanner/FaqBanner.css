@@ -1,0 +1,134 @@
+
+.FQ-container{
+    margin-top: 8%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+  }
+  .FQ-container h2{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    font-size: 41px;
+  }
+  .FQ-container p{
+    text-align: center;
+    font-family: 'Aileron-Light';
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  
+  
+  .faq-section{
+    padding: 40px 30px;
+  }
+  .toggle-button{
+    color: #029094;
+    font-size: 18px;
+    padding-right: 8px;
+  }
+  /* .fa-caret-right {
+    padding-right: 8px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+  } */
+  .rotated {
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease;
+    color: #fff;
+  }
+  .faq-rw{
+   background-color: #f7f7f7;
+   border: 1px solid #d4d4d4;
+   border-radius: 5px;
+   margin: 8PX 0;
+   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  }
+  .faq-rw.active {
+    background-color: #029094; 
+    color: #fff; 
+  }
+  .color-active{
+    color: #fff ;
+  }
+  
+  .faq-question{
+    width: 100%;
+    background: transparent;
+    padding: 8px;
+    font-size: 18px;
+    display: flex;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-weight: 480;
+    text-align: left;
+    font-family: 'Aileron-Bold';
+  }
+  .faq-question i{
+    margin-right: 10px;
+  }
+  .faq-pannel{
+    padding: 5px 30px;
+    display: none;
+  }
+  .faq-pannel p{
+    font-size: 17px;
+    line-height: 1.4;
+    font-family: 'Aileron-UltraLight';
+  }
+   
+  /* responsive */
+  
+  @media(max-width:1024px){
+    .FQ-container{
+      margin-top: 12%;
+    }
+  }
+  
+  @media(max-width:768px){
+    .FQ-container{
+      margin-top: 14%;
+    } 
+  }
+  
+  @media(max-width:600px){
+    .FQ-container{
+      margin-top: 20%;
+    }
+  }
+  
+  @media(max-width:500px){
+    .FQ-container{
+      margin-top: 25%;
+      padding: 0 30px;
+    }
+  }
+  
+  @media(max-width:400px){
+    .FQ-container{
+      margin-top: 30%;
+    }
+    .FQ-container h2{
+      text-align: center;
+      font-family: 'Aileron-UltraLight';
+      font-size: 32px;
+    }
+    .FQ-container p{
+      text-align: center;
+      font-family: 'Aileron-Light';
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+  }
+  .faq-question.color-active {
+    color: white; /* Change text color to white when active */
+    background-color: #333; /* Optional: change background color as well */
+  }
+  .faq-rw.active .faq-question {
+    color: white; /* Ensure that the text turns white when active */
+  }

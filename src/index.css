@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+  font-family: 'Aileron-Thin';
+  src: url('../public/fonts/Aileron-Thin.otf') format('opentype');
+} 
+@font-face{
+  font-family: 'Aileron-UltraLight';
+  src: url('../public/fonts/Aileron-UltraLight.otf') format('opentype');
+}
+@font-face{
+  font-family: 'Aileron-Light';
+  src: url('../public/fonts/Aileron-Light.otf') format('opentype');
+}
+@font-face{
+  font-family: 'Aileron-Bold';
+  src: url('../public/fonts/Aileron-Bold.otf') format('opentype');
+}
+@font-face{
+  font-family: 'Aileron-Regular';
+  src: url('../public/fonts/Aileron-Regular.otf') format('opentype');
+}
+@font-face{
+  font-family: 'Avenir LT Std 65 Medium';
+  src: url('../public/fonts/Avenir LT Std 65 Medium.otf') format('opentype');
+}
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+
+position: relative;
+/* overflow-x: hidden !important; */
+}

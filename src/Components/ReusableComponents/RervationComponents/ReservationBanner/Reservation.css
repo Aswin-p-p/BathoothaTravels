@@ -1,0 +1,77 @@
+.RP-container{
+    margin-top: 8%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+  }
+  .RP-container h2{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    font-size: 41px;
+  }
+  .RP-container p{
+    text-align: center;
+    font-family: 'Aileron-Light';
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  
+  .policy-section{
+    padding:50px 30px;
+  }
+  .rpColn{
+    margin: 10px 0;
+  }
+  .rpColn h5{
+    font-family: 'Aileron-Bold';
+  }
+  .rpColn p{
+    font-family: 'Aileron-UltraLight';
+    font-weight: 600;
+  }
+  @media(max-width:1024px){
+    .RP-container{
+      margin-top: 12%;
+      
+    }
+  
+  
+  }
+  @media(max-width:768px){
+    .RP-container{
+        margin-top: 14%;
+        
+      } 
+  }
+  @media(max-width:600px){
+    .RP-container{
+        margin-top: 20%;
+        
+      }
+  }
+  @media(max-width:500px){
+    .RP-container{
+        margin-top: 25%;
+        padding: 0 30px;
+  }
+}
+@media(max-width:400px){
+    .RP-container{
+        margin-top: 30%;
+      }
+      .RP-container h2{
+        text-align: center;
+        font-family: 'Aileron-UltraLight';
+        font-size: 38px;
+      }
+    .RP-container p{
+        text-align: center;
+        font-family: 'Aileron-Light';
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+}
