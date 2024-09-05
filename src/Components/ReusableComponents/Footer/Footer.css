@@ -6,7 +6,7 @@
     justify-content: space-between;
     padding:0 20px;
     flex-wrap: wrap;
-    margin-top: 5%;
+    /* margin-top: 5%; */
   }
   .coln1{
     display: flex;

@@ -1,0 +1,174 @@
+.CT-details{
+    height: 45vh;
+    background-color: #029094;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: relative;
+  }
+  
+  .location{
+    display: flex;
+    align-items: center;
+  }
+  .box{
+    width: 200px;
+    height: 230px;
+    border: 15px solid #fff;
+    position: relative;
+  }
+  .locate{
+    position: absolute;
+    background-color: #029094;
+    max-width: 280px;
+    margin-left: 130px;
+  }
+  .locate h4{
+    font-family: 'Aileron-Light';
+    font-size: 26px;
+  }
+  .locate p{
+    font-family: 'Aileron-UltraLight';
+    font-size: 18px;
+  }
+  .call{
+    margin-left: 20px;
+  }
+  .vr-line{
+    width: 1px;
+    height: 180px;
+    background-color: #fff;
+    z-index: 1;
+    margin-left: 51px;
+  }
+  .contact{
+    display: grid;
+    place-items: center;
+    z-index: 1;
+  }
+  .contact img{
+    width: 60px;
+    margin-bottom: 5px;
+  }
+  .contact a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .contact p{
+    font-family: 'Aileron-Light';
+    font-size: 24px;
+  }
+  .google-Map{
+    width: 100%;
+  }
+  .google-Map img{
+    width: 100%;
+    height: 80vh;
+  }
+
+  /* responsivness */
+  @media(max-width:1440px){
+    .locate{
+        position: absolute;
+        background-color: #029094;
+        max-width: 280px;
+        margin-left: 50px;
+      }
+      .vr-line{
+        width: 1px;
+        height: 180px;
+        background-color: #fff;
+        z-index: 1;
+        margin-left: 20px;
+      }
+      .contact p{
+        font-family: 'Aileron-Light';
+        font-size: 20px;
+      }
+  }
+  @media(max-width:999px){
+    .box{
+        width: 180px;
+        height: 200px;
+        border: 15px solid #fff;
+        position: relative;
+      }
+      .locate{
+        position: absolute;
+        background-color: #029094;
+        max-width: 260px;
+        margin-left: 48px;
+      }
+      .locate h4{
+        font-family: 'Aileron-Light';
+        font-size: 22px;
+      }
+      .locate p{
+        font-family: 'Aileron-UltraLight';
+        font-size: 16px;
+      }
+      .contact img{
+        width: 40px;
+        margin-bottom: 5px;
+      }
+      .contact p{
+        font-family: 'Aileron-Light';
+        font-size: 16px;
+      }
+  }
+
+  @media(max-width:650px){
+    .CT-details{
+        width: 100%;
+        height: auto;
+        background-color: #029094;
+        color: #fff;
+        display: block;
+      align-items: center;
+      justify-content: center;
+        padding: 40px 50px 0;
+        position: relative;
+      }
+
+      .location{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .locate{
+        position: absolute;
+        background-color: #029094;
+        max-width: 280px;
+        margin-left: 160px;
+      }
+      .vr-line{
+        display: none;
+       }
+       .contact p{
+        font-family: 'Aileron-Light';
+        font-size: 20px;
+      }
+      .contact{
+        display: grid;
+        place-items: center;
+        z-index: 1;
+        margin: 25px 0;
+      }
+    
+  }
+
+  @media(max-width:400px){
+    .location{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .locate{
+        position: absolute;
+        background-color: #029094;
+        max-width: 280px;
+        margin-left: 120px;
+      }
+  }

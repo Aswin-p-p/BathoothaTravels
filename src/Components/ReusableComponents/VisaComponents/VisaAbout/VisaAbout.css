@@ -1,0 +1,196 @@
+
+.VA-container{
+    margin-top: 8%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  .hero-content{
+    display: grid;
+    place-items: center;
+  }
+  .VA-container h2{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    font-size: 41px;
+    max-width: 280px;
+    border-bottom: 2px solid #fff;
+  }
+  .VA-container p{
+    text-align: center;
+    font-family: 'Aileron-Light';
+    text-transform: uppercase;
+    font-size: 13px;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .VA-coln2Sect{
+    padding: 15px 0;
+    margin-top: 25px;
+  }
+  .VA-coln2Sect p{
+    font-family: 'Aileron-UltraLight';
+      letter-spacing: 1px;
+  }
+  
+  .VA-section{
+    background-color: #029094;
+    padding:50px 30px;
+    margin: 20px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .VASection-col1{
+    width: 40%;
+  
+  }
+  .VASection-col1 h1{
+    font-family: 'Aileron-UltraLight';
+    font-size: 53px;
+    line-height: 46px;
+  }
+  .VASection-col1 button{
+    background-color: transparent;
+    padding: 5px 80px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Aileron-Bold';
+    margin-top: 15px;
+  }
+  .VASection-col1 h6{
+    font-family: 'Aileron-Bold';
+  }
+  .VASection-col1 li{
+    font-family: 'Aileron-UltraLight';
+    letter-spacing: 1px;
+    padding: 3px 0;
+    
+  }
+  .vrLine1{
+    width: 8px;
+    height: 160px;
+    background-color: #fff;
+    margin-right: 50px;
+  }
+  
+  .visa-services{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* .VAList{
+    width: 500px;
+    background-color: tan;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  } */
+  .VAList h5{
+    font-family: 'Aileron-Bold';
+  }
+  .listing{
+    text-align: left;
+  }
+  .listing li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .fa-minus{
+    font-size: 10px;
+  }
+  
+  @media(max-width:1024px){
+    .VA-container{
+      margin-top: 12%;
+      
+    }
+  }
+  @media(max-width:999px){
+    .VA-section{
+      background-color: #029094;
+      padding:50px 30px;
+      margin: 40px 0;
+      color: #fff;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+    .VASection-col1{
+      width: 100%;
+    }
+    .VAcoln2{
+      margin-top: 30px;
+    }
+    .vrLine1{
+      display: none;
+    }
+  }
+  @media(max-width:768px){
+    
+    .VA-container{
+      margin-top: 14%;
+      
+    }
+    .VAcoln2{
+      position: relative;padding-left: 0;
+    }
+    .VAcoln2::before{
+      display: none;
+    }
+    .VASection-col1 h1{
+      font-family: 'Aileron-UltraLight';
+      font-size: 50px;
+      line-height: 48px;
+    }
+    .VA-coln2Sect{
+      padding: 15px 30px;
+      border-bottom: 1px solid #cccc;
+    }
+    
+  }
+  @media(max-width:650px){
+    .visa-services{
+      margin: 30px 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-right: 30px;
+    }
+  }
+  @media(max-width:600px){
+    .VA-container{
+      margin-top: 20%;
+      
+    }
+  }
+  @media(max-width:450px){
+    .VA-container{
+      margin-top: 25%;
+      padding: 0 30px;
+    }
+  }
+
+  @media(max-width:400px){
+    .VA-container{
+      margin-top: 30%;
+    }
+    .VA-container h2{
+      text-align: center;
+      font-family: 'Aileron-UltraLight';
+      font-size: 38px;
+    }
+    .VA-container p{
+      text-align: center;
+      font-family: 'Aileron-Light';
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+  }

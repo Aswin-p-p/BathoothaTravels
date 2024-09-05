@@ -14,6 +14,9 @@ function HomeBanner() {
 
   const toggleFirstForm = () => {
     setFirstFormVisible(!isFirstFormVisible);
+    if (!isFirstFormVisible) {
+      setSecondFormVisible(false); // Close the second form if the first form is opened
+    }
   };
 
   const closeFirstForm = () => {
@@ -22,11 +25,15 @@ function HomeBanner() {
 
   const toggleSecondForm = () => {
     setSecondFormVisible(!isSecondFormVisible);
+    if (!isSecondFormVisible) {
+      setFirstFormVisible(false); // Close the first form if the second form is opened
+    }
   };
 
   const closeSecondForm = () => {
     setSecondFormVisible(false);
   };
+
 
     const settings = {
         dots: false,

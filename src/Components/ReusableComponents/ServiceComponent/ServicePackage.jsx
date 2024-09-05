@@ -77,7 +77,7 @@ function ServicePackage() {
     </div>
   </div>
 </div>
-
+<div class="AB-booking">
 <div className="serv-travel">
   <img src="assets/serviceimage/travel.jpg" alt="" />
   <div className="Svbook-with">
@@ -110,7 +110,7 @@ function ServicePackage() {
     </div>
   </div>
 </div>
-
+</div>
 
     </>
   )

@@ -1,0 +1,188 @@
+.AB-container{
+    margin-top: 8%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+  }
+  .AB-container h2{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    font-size: 41px;
+  }
+  .AB-container p{
+    text-align: center;
+    font-family: 'Aileron-Light';
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  
+  
+  .AB-contents{
+    display: flex;
+    justify-content: space-between;
+    margin:80px 0;
+    padding: 0 40px;
+  }
+  
+  .abVision h1{
+    font-family: 'Aileron-UltraLight';
+    text-transform: uppercase;
+    color: #999999;
+    font-size: 76px;
+    padding-left: 30px;
+  }
+  .abVision p{
+    font-family: 'Aileron-UltraLight';
+    max-width: 500px;
+    font-size: 20px;
+    color: #029094;
+    font-weight: 600;
+    position: relative;
+    padding-left: 30px;
+  }
+  .abVision p::after{
+    content: "";
+    top: 0;left:0;
+    width: 12px;
+    height: 90px;
+    background-color: #029094;
+    position: absolute;
+  }
+  .abVision-cont{
+    position: relative;
+  }
+  .abVision-cont::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 340px;
+    background-color: #000;
+    top: -30px;
+  }
+  
+  .abVision-cont h5{
+    font-family: 'Aileron-Regular';
+    margin-top: 20px;
+    padding-left: 30px;
+    max-width: 700px;
+  }
+  .abVision-cont p{
+    font-family: 'Aileron-Light';
+    font-size: 16px;
+    padding-left: 30px;
+    max-width: 700px;
+  }
+
+  /* responsivness */
+
+  
+  @media(max-width:1024px){
+    .AB-container{
+        margin-top: 12%;
+        
+      }
+  }
+
+  @media(max-width:999px){
+    .AB-contents{
+        display: grid;
+        place-items: center;
+        margin:80px 40px;
+      }
+
+      .abVision p::after{
+        content: "";
+        top: 0px;left:0;
+        width: 12px;
+        height: 55px;
+    
+      }
+      .abVision-cont::before{
+       display: none;
+      }
+      .abVision p{
+        font-family: 'Aileron-UltraLight';
+        max-width: 100%;
+        font-size: 20px;
+        color: #029094;
+        font-weight: 600;
+        position: relative;
+        padding-left: 30px;
+      }
+      .abVision-cont h5{
+        max-width: 100%;
+        padding-left: 30px;
+      }
+      .abVision-cont p{
+        max-width: 100%;
+        padding-left: 30px;
+      }  
+  }
+
+  @media(max-width:768px){
+    .AB-container{
+        margin-top: 14%;
+        
+      }
+      .AB-contents{
+        padding: 0 10px;
+      }  
+      .abVision p::after{
+        display: none;
+     
+       }
+       .AB-contents{
+         padding: 0 10px;
+       }
+       .abVision h1{
+         padding-left: 0;
+       }
+       .abVision p{
+         padding-left: 0;
+       }
+   
+       .abVision-cont h5{
+         padding-left: 0;
+       }
+       .abVision-cont p{
+         padding-left: 0;
+       }
+   
+  }
+
+  @media(max-width:650px){
+    .AB-container{
+        margin-top: 20%;
+        
+      }
+
+
+  }
+
+  @media(max-width:450px){
+    .AB-container{
+        margin-top: 25%;
+        padding: 0 30px;
+      }
+  }
+
+  @media(max-width:400px){
+    .AB-container{
+        margin-top: 30%;
+      }
+      .AB-container h2{
+        text-align: center;
+        font-family: 'Aileron-UltraLight';
+        font-size: 38px;
+      }
+      .AB-container p{
+        text-align: center;
+        font-family: 'Aileron-Light';
+        text-transform: uppercase;
+        font-size: 12px;
+      }  
+  }

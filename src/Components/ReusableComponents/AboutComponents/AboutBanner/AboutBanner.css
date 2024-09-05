@@ -1,0 +1,159 @@
+
+.AB-team{
+    height: 45vh;
+    background-color: #029094;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: relative;
+  }
+  .team-cont{
+    display: flex;
+    align-items: center;
+  }
+  .ab-teamRow{
+    width: 230px;
+    height: 260px;
+    border: 15px solid #fff;
+    position: relative;
+  }
+  .quote{
+    position: absolute;
+    background-color: #029094;
+    max-width: 420px;
+    left: 156px;
+  }
+  .quote h4{
+    font-family: 'Aileron-Light';
+  }
+  .quote p{
+    font-family: 'Aileron-UltraLight';
+    font-size: 18px;
+  }
+  .image p{
+   position: absolute;
+   right: 30%;
+   bottom: 10px;
+   font-family: 'Aileron-Thin';
+   font-size: 20px;
+  }
+  .image p span{
+    font-size: 18px;
+  }
+  .team-img{
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+  }
+  .team-img img{
+    width: 270px;
+  }
+
+  /* responsivness */
+
+  @media(max-width:768px){
+    .ab-teamRow{
+        width: 195px;
+        height: 230px;
+      }
+      .quote{
+        max-width: 330px;
+        left: 120px;
+      }
+      .quote p{
+        font-family: 'Aileron-UltraLight';
+        font-size: 16px;
+      } 
+      .image p{
+        position: absolute;
+        right: 40%;
+        font-size: 18px;
+       }
+       .image p span{
+        font-size: 15px;
+      } 
+      .team-img{
+        right: 32px;
+        bottom: 0;
+      }
+      .team-img img{
+        width: 215px;
+      } 
+  
+  }
+  @media(max-width:650px){
+    .AB-team{
+        height: 85vh;
+        background-color: #029094;
+        color: #fff;
+        display: flex;
+        align-items: start;
+        /* justify-content: space-between; */
+        padding: 20px 50px 0;
+        position: relative;
+      }
+
+      .ab-teamRow{
+        width: 180px;
+        height: 200px;
+        border: 15px solid #fff;
+        position: relative;
+        margin-top: 0;
+      } 
+      
+      .team-cont{
+        padding-right: 30px;
+        } 
+        .quote{
+            position: absolute;
+            background-color: #029094;
+            max-width: 100%;
+            left: 120px;
+        
+          }
+          .quote p{
+            font-family: 'Aileron-UltraLight';
+            font-size: 16px;
+          }  
+          .image p{
+            position: absolute;
+            right: 83px;
+            bottom: 40%;
+            font-family: 'Aileron-Thin';
+            font-size: 18px;
+           }
+           .team-img{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 40px;
+          }
+          .team-img img{
+            width: 220px;
+          }      
+
+  }
+
+  @media(max-width:400px){
+    .quote{
+        position: absolute;
+        background-color: #029094;
+        max-width: 100%;
+        left: 100px;
+    
+      }
+      .quote p{
+        font-family: 'Aileron-UltraLight';
+        font-size: 15px;
+      }
+
+      .image p{
+        position: absolute;
+        right: 75px;
+        bottom: 42%;
+        font-family: 'Aileron-Thin';
+        font-size: 18px;
+       }  
+  }

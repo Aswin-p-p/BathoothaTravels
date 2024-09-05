@@ -1,0 +1,165 @@
+.CT-container{
+    margin-top: 8%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+  }
+  .CT-container h2{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    font-size: 41px;
+  }
+  .CT-container p{
+    text-align: center;
+    font-family: 'Aileron-Light';
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .CT-contents{
+    display: flex;
+    justify-content: space-between;
+    margin:80px 0;
+    gap: 10%;
+  }
+  
+  .CT-coln h5{
+    font-family: 'Aileron-Light';
+    font-size: 22px;
+  
+  }
+  .CT-coln p{
+    font-family: 'Aileron-Light';
+    margin-top: 15px;
+  }
+  .CT-coln1 h5{
+    font-size: 26px;
+  }
+  .CT-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .CT-form input{
+    width: 320px;
+    padding: 8px 30px;
+    background-color: transparent;
+    margin: 8px 0;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #000;
+    text-transform: capitalize;
+  }
+  .CT-form input::placeholder{
+    color: #000;
+    font-size: 14px;
+  }
+  .CT-form textarea{
+    width: 100%;
+    margin-top: 1px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: 1px solid #000;
+    outline: none;
+    text-transform: capitalize;
+  }
+  .CT-form textarea::placeholder{
+    color: #000;
+    font-size: 14px;
+  }
+  .CTBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .CTBtn button{
+    background-color: #00666a;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+  }
+
+  /* responsivness */
+
+  @media(max-width:1024px){
+    .CT-container{
+      margin-top: 12%;
+      
+    }
+}
+@media(max-width:999px){
+    .CT-container{
+        margin-top: 15%;
+        
+      }
+      .CT-contents{
+        display: grid;
+        place-items: center;
+        margin:80px 40px;
+      }
+}
+
+@media(max-width:768px){
+    .CT-container{
+        margin-top: 20%;
+        
+      }
+
+      .CT-contents{
+        padding: 0 0;
+        gap: 30px;
+      }
+    
+      .CT-form input{
+        width: 100%;
+        padding: 8px 30px;
+        background-color: transparent;
+        margin: 8px 0;
+        border-radius: 50px;
+        outline: none;
+        border: 1px solid #000;
+        text-transform: capitalize;
+      }  
+}
+
+
+
+@media(max-width:600px){
+    .CT-container{
+        margin-top: 20%;
+        
+      }
+     
+}
+
+@media(max-width:450px){
+    .CT-container{
+        margin-top: 25%;
+        padding: 0 30px;
+}
+
+}
+
+@media(max-width:400px){
+    .CT-container{
+        margin-top: 30%;
+      }
+      .CT-container h2{
+        text-align: center;
+        font-family: 'Aileron-UltraLight';
+        font-size: 38px;
+      }
+      .CT-container p{
+        text-align: center;
+        font-family: 'Aileron-Light';
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+}
