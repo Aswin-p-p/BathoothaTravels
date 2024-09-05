@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -43,14 +44,14 @@ function Footer() {
       </div>
 
       <div className="copyright">
-        <p>
-          Copyright &copy; 2024 bathootha | 
-          <a href="">Privacy Policy</a> |
-          <a href=""> About Us</a> |
-          <a href="/faq"> FAQ</a> |
-          <a href="/contactus"> Contact Support</a>
-        </p>
-      </div>
+      <p>
+        Copyright &copy; 2024 bathootha | 
+        <Link to="/privacy-policy">Privacy Policy</Link> | 
+        <Link to="/aboutus">About Us</Link> | 
+        <Link to="/faq">FAQ</Link> | 
+        <Link to="/contactus">Contact Support</Link>
+      </p>
+    </div>
     </>
   );
 }
