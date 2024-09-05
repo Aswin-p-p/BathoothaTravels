@@ -9,6 +9,9 @@ import Booking from './Components/Pages/booking/Booking';
 import Contact from './Components/Pages/contact/Contact';
 import About from './Components/Pages/About/About';
 import Visa from './Components/Pages/Visapage/Visapage';
+import Hotelpage from './Components/Pages/Hotelpage/Hotelpage';
+import Ticketpage from './Components/Pages/Ticketpage/Ticketpage';
+import Cooperaivepage from './Components/Pages/Cooperative/Cooperaivepage';
 
 function App() {
   return (
@@ -26,7 +29,9 @@ function App() {
             <Route path='/contactus' element={<Contact/ >} />
             <Route path='/aboutus' element={<About/ >} />
             <Route path='/visapage' element={<Visa/ >} />
-
+            <Route path='/hotelpage' element={<Hotelpage/ >} />
+            <Route path='/ticketpage' element={<Ticketpage/ >} />
+            <Route path='/service_cooperative' element={<Cooperaivepage/ >} />
         </Routes>
       </BrowserRouter>
    </>

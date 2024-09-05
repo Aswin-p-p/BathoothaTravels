@@ -1,0 +1,184 @@
+.ST-details{
+    padding: 15px 0;
+  }
+  .ST-details p{
+    font-family: 'Aileron-UltraLight';
+    letter-spacing: 1px;
+  }
+  
+  .ST-row{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin: 40px 0;
+  }
+  .ticketing-col{
+    width: 270px;
+    border-right: 1px solid #ccc;
+    padding:30px 0;
+  }
+  .ticketing-col img{
+   display: block;
+   margin: 5px auto;
+   width: 80px;
+  }
+  .ticketing-col h6{
+    font-family: 'Aileron-Bold';
+    text-align: center;
+    padding-top: 8px;
+  }
+  .right{
+    border-right: none;
+  }
+  
+  .ST-contentSec{
+    background-color: #029094;
+    padding:50px 30px;
+    margin: 40px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .ST-col2{
+    width: 50%;
+  }
+  .ST-col2 h1{
+    font-family: 'Aileron-UltraLight';
+    font-size: 57px;
+    line-height: 51px;
+  }
+  .ST-col2 button{
+    background-color: transparent;
+    padding: 5px 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Aileron-Bold';
+    margin-top: 15px;
+  }
+  .ST-col2 h6{
+    font-family: 'Aileron-Bold';
+  }
+  .ST-col2 p{
+    font-family: 'Aileron-UltraLight';
+   letter-spacing: 1px;
+    
+  }
+  .STcoln3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+  }
+  .STcoln3::after{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 150px;
+    background-color: #fff;
+    right: 0;
+    /* margin: 0 30px; */
+  }
+  
+  .ticketing-services{
+    margin: 50px 0;
+  }
+  .ticketing-services p{
+    font-family: 'Aileron-UltraLight';
+    letter-spacing: 1px;
+  }
+  .ticketing-services h5{
+    font-family: 'Aileron-Bold';
+  }
+  
+  .Ticket-services{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+  }
+  .ticketServ-col{
+    width: 340px;
+    padding: 30px 0;
+    border-right: 1px solid #ccc;
+  }
+  .ticketServ-col img{
+    width: 80px;
+    margin: 5px auto;
+    display: block;
+  }
+  .ticketServ-col h6{
+    font-family: 'Aileron-Bold';
+    text-align: center;
+  }
+  .right1{
+    border-right: none;
+  }
+
+  /* responsivness */
+  @media(max-width:999px){
+    .ST-contentSec{
+        background-color: #029094;
+        padding:50px 30px;
+        margin: 40px 0;
+        color: #fff;
+        display: block;
+        align-items: center;
+        justify-content: center;
+      }
+      .ST-col2{
+        width: 100%;
+      }  
+      .STcoln3{
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding-right: 0;
+      }
+      .STcoln3::after{
+       display: none;
+      }  
+  }
+  @media(max-width:768px){
+    .ST-details{
+        padding: 15px 30px;
+      }
+      .ST-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0;
+        flex-wrap: wrap;
+        border: none;
+      }  
+      .ticketing-col{
+        border: 1px solid #ccc;
+        width: 250px;
+        padding:30px 25px;
+       
+      }  
+      .right{
+        border: 1px solid #ccc;
+      } 
+      
+      .ticketing-services{
+        padding: 30px;
+      }  
+      .Ticket-services{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: none;
+        margin-top: 40px;
+      }  
+      .ticketServ-col{
+        width: 250px;
+        padding: 30px 0;
+        border: 1px solid #ccc;
+      } 
+      .right1{
+        border-right: 1px solid #ccc;
+      } 
+  }
+

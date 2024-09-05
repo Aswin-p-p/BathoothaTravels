@@ -49,7 +49,15 @@ function Header() {
         <ul className="menuBar">
       <li><Link to="/">Home</Link></li>
       <li><Link to="/aboutus">About Us</Link></li>
-      <li><Link to="/service">Services</Link></li>
+      <li className="services-dropdown">
+                <Link to={'/servicepage'}> Services</Link>
+                <ul className="dropdown-content">
+                <li className='sugli'><Link to={'/hotelbooking'}>Hotel Booking</Link></li>
+                  <li className='sugli'><Link to={"/ticket"}>ticketing</Link></li>
+                  <li className='sugli'><a href="/service3">Service 3</a></li>
+                  <li className='sugli'><Link to={"/servicedemo"}>ServiceDemopage</Link></li>
+                </ul>
+              </li>
       <li><Link to="/booking">Booking</Link></li>
       <li><Link to="/blog">Blog</Link></li>
       <li><Link to="/contactus">Contact Us</Link></li>

@@ -1,5 +1,64 @@
 
 
+.services-dropdown {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+  /* background-color: #f9f9f9; */
+  min-width: 160px;
+  background-color: white ;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .sugli {
+  padding: 10px 15px !important;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content li a {
+  color: black;
+  text-decoration: none;
+}
+
+.services-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.no-underline{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.dropdown-content li {
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //ende */
 .navheader.scrolled {
   background-color: white;
 }

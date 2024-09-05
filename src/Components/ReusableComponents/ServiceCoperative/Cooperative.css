@@ -1,0 +1,235 @@
+.serviceCT-container{
+    margin-top: 8%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  .hero-content{
+    display: grid;
+    place-items: center;
+  }
+  .serviceCT-container h2{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    font-size: 41px;
+    max-width: 280px;
+    border-bottom: 2px solid #fff;
+  }
+  .serviceCT-container p{
+    text-align: center;
+    font-family: 'Aileron-Light';
+    text-transform: uppercase;
+    font-size: 13px;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .bookCT{
+    background-color: #029094;
+    padding:50px 30px;
+    margin: 40px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bookCT-col1{
+    width: 50%;
+  }
+  .bookCT-col1 h1{
+    font-family: 'Aileron-UltraLight';
+    font-size: 57px;
+    line-height: 51px;
+  }
+  .bookCT-col1 button{
+    background-color: transparent;
+    padding: 5px 60px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Aileron-Bold';
+    margin-top: 15px;
+  }
+  .bookCT-col1 h6{
+    font-family: 'Aileron-Bold';
+  }
+  .bookCT-col1 p{
+    font-family: 'Aileron-UltraLight';
+    
+  }
+  .CTcoln2{
+    position: relative;padding-left: 30px;
+  }
+  .CTcoln2::before{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 150px;
+    background-color: #fff;
+    left: 0;
+  }
+  
+  .Ourservices{
+    padding: 15px 0;
+    border-bottom: 1px solid #cccc;
+  }
+  .Ourservices p{
+    font-family: 'Aileron-UltraLight';
+  }
+  .services-div{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .services-div h3{
+    font-family: 'Aileron-UltraLight';
+    font-size: 35px;
+  }
+  .services-list{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+  .SVList{
+    display: block;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 20px 20px ;
+  }
+  .SVList img{
+    width: 70px;
+  }
+  .SVList h6{
+    font-family: 'Aileron-Bold';
+    margin-top: 5px;
+    
+  }
+  .SVList p{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    max-width: 250px;
+  }
+  
+  .customer-support{
+    display: grid;
+    place-items: center;
+    padding: 30px;
+  }
+  .customer-support h5{
+    font-family: 'Aileron-Bold';
+    text-align: center;
+  }
+  .customer-support p{
+    max-width: 550px;
+    font-family: 'Aileron-UltraLight';
+    text-align: center;
+  }
+  .customer-support button{
+    padding: 8px 60px;
+    background-color: #029094;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: 'Aileron-Bold';
+  }
+
+  /* responsivness */
+
+  @media(max-width:1024px){
+    .serviceCT-container{
+        margin-top: 12%;
+        
+      }
+      .services-list{
+         flex-wrap: wrap;
+      }
+  }
+  @media(max-width:999px){
+    .services-list{
+      flex-wrap: wrap;
+   }
+    .bookCT{
+        background-color: #029094;
+        padding:50px 30px;
+        margin: 40px 0;
+        color: #fff;
+        display: block;
+        align-items: center;
+        justify-content: center;
+      }
+      .bookCT-col1{
+        width: 100%;
+      }
+      .CTcoln2{
+        margin-top: 30px;
+        position: relative;padding-left: 30px;
+      }  
+  }
+
+  @media(max-width:768px){
+    .services-list{
+      flex-wrap: wrap;
+   }
+    .serviceCT-container{
+        margin-top: 14%;
+        
+      }
+      .bookCT-col1 h1{
+        font-family: 'Aileron-UltraLight';
+        font-size: 50px;
+        line-height: 48px;
+      }
+      .CTcoln2{
+        position: relative;padding-left: 0;
+      }
+      .CTcoln2::before{
+        display: none;
+      }  
+      .Ourservices{
+        padding: 15px 30px;
+        border-bottom: 1px solid #cccc;
+      } 
+  }
+
+  @media(max-width:600px){
+    .services-list{
+      flex-wrap: wrap;
+   }
+    .serviceCT-container{
+        margin-top: 20%;
+        
+      }
+  } 
+
+  @media(max-width:450px){
+    .services-list{
+      flex-wrap: wrap;
+   }
+    .serviceCT-container{
+        margin-top: 25%;
+        padding: 0 30px;
+      }
+  } 
+
+ @media(max-width:400px){
+  .services-list{
+    flex-wrap: wrap;
+ }
+    .serviceCT-container{
+        margin-top: 30%;
+      }
+      .serviceCT-container h2{
+        text-align: center;
+        font-family: 'Aileron-UltraLight';
+        font-size: 38px;
+      }
+      .serviceCT-container p{
+        text-align: center;
+        font-family: 'Aileron-Light';
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+ } 

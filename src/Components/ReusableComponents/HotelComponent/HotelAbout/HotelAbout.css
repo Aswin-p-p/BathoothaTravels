@@ -1,0 +1,146 @@
+.HB-coln3Sect{
+    padding: 15px 0;
+  }
+  .HB-coln3Sect p{
+    font-family: 'Aileron-UltraLight';
+      letter-spacing: 1px;
+  }
+  
+  .customer-support{
+    display: grid;
+    place-items: center;
+    padding: 30px;
+  }
+  .customer-support h5{
+    font-family: 'Aileron-Bold';
+    text-align: center;
+  }
+  .customer-support p{
+    max-width: 550px;
+    font-family: 'Aileron-UltraLight';
+    text-align: center;
+  }
+  .customer-support button{
+    padding: 8px 60px;
+    background-color: #029094;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: 'Aileron-Bold';
+  }
+  
+  .bookin-Frm{
+    border: 1px solid #ccc;
+    padding: 30px;
+    height: auto;
+    text-align: center;
+  }
+  .bookin-Frm h6{
+    font-family: 'Aileron-Regular';
+    font-size: 18px;
+  }
+  .frm-forConfirm{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 120px;
+  margin: 8px auto;
+    
+  }
+  .frm-box{
+    width: 300px;
+    display: flex;
+    /* height: 35px; */
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+    margin: 5px 8px;
+  }
+  .frm-box img{
+    width: 25px;
+    margin-right: 10px;
+  }
+  .frm-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  .frm-box select{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 13px;
+    color: #000;
+    font-family: 'Aileron-Regular';
+  }
+  .frm-box textarea{
+    border: none;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+  }
+  .frm-box input::placeholder{
+    color: #000;
+    font-size: 13px;
+    font-family: 'Aileron-Regular';
+  }
+  .frm-box textarea::placeholder{
+    color: #000;
+    font-size: 13px;
+    font-family: 'Aileron-Regular';
+  }
+  .dateBox{
+    display: flex;
+    align-items: center;
+  }
+  input[type="date"] {
+    width: 110px;
+    font-size: 13px;
+    font-family: 'Aileron-Regular';
+    gap: 5px;
+  }
+  
+  .querysec{
+    display: flex;
+    align-items: start;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding:30px 020px ;
+  }
+
+  /* responsivness */
+  @media(max-width:1024px){
+    .frm-box{
+      width: 250px;
+      display: flex;
+      /* height: 35px; */
+      align-items: center;
+      border: 1px solid #ccc;
+      padding: 8px 20px;
+      margin: 5px 10px;
+    }
+  }
+  @media(max-width:999px){
+    .frm-forConfirm{
+        max-width: 100%;
+        padding: 20px 0;
+      margin: 8px auto;
+        
+      }
+      .frm-box{
+        width: 100%;
+        margin: 5px 0;
+      }  
+  }
+
+  @media(max-width:768px){
+    .HB-coln3Sect{
+        padding: 15px 30px;
+        border-bottom: 1px solid #cccc;
+      }
+      
+  }

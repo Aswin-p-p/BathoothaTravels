@@ -1,0 +1,149 @@
+.HB-container{
+    margin-top: 8%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  .hero-content{
+    display: grid;
+    place-items: center;
+  }
+  .HB-container h2{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    font-size: 41px;
+    max-width: 280px;
+    border-bottom: 2px solid #fff;
+  }
+  .HB-container p{
+    text-align: center;
+    font-family: 'Aileron-Light';
+    text-transform: uppercase;
+    font-size: 13px;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .HB-section{
+    background-color: #029094;
+    padding:50px 30px;
+    margin: 40px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .HBSection-col1{
+    width: 50%;
+  }
+  .HBSection-col1 h1{
+    font-family: 'Aileron-UltraLight';
+    font-size: 57px;
+    line-height: 51px;
+  }
+  .HBSection-col1 button{
+    background-color: transparent;
+    padding: 5px 80px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Aileron-Bold';
+    margin-top: 15px;
+  }
+  .HBSection-col1 h6{
+    font-family: 'Aileron-Bold';
+  }
+  .HBSection-col1 p{
+    font-family: 'Aileron-UltraLight';
+    letter-spacing: 1px;
+    
+  }
+  .HBcoln2{
+    position: relative;padding-left: 30px;
+  }
+  .HBcoln2::before{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 150px;
+    background-color: #fff;
+    left: 0;
+    top: -25px;
+  }
+
+  /* responsivness */
+
+  @media(max-width:1024px){
+    .HB-container{
+        margin-top: 12%;
+        
+      }
+  }
+  @media(max-width:999px){
+    .HB-section{
+      background-color: #029094;
+      padding:50px 30px;
+      margin: 40px 0;
+      color: #fff;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+    .HBSection-col1{
+      width: 100%;
+    }
+    .HBcoln2{
+      margin-top: 30px;
+      position: relative;padding-left: 30px;
+    }
+  }  
+
+  @media(max-width:768px){
+    .HB-container{
+        margin-top: 14%;
+        
+      }
+      .HBSection-col1 h1{
+        font-family: 'Aileron-UltraLight';
+        font-size: 50px;
+        line-height: 48px;
+      }
+      .HBcoln2{
+        position: relative;padding-left: 0;
+      }
+      .HBcoln2::before{
+        display: none;
+      }    
+  }
+
+  @media(max-width:600px){
+    .HB-container{
+        margin-top: 20%;
+        
+      }
+
+  }
+  @media(max-width:450px){
+    .HB-container{
+        margin-top: 25%;
+        padding: 0 30px;
+      }
+  }
+  @media(max-width:400px){
+    .HB-container{
+        margin-top: 30%;
+      }
+      .HB-container h2{
+        text-align: center;
+        font-family: 'Aileron-UltraLight';
+        font-size: 38px;
+      }
+      .HB-container p{
+        text-align: center;
+        font-family: 'Aileron-Light';
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+  }

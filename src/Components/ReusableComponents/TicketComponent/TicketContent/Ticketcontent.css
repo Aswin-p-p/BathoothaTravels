@@ -1,0 +1,152 @@
+.ticketing-container{
+    margin-top: 8%;
+    height: 40vh;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  .hero-content{
+    display: grid;
+    place-items: center;
+  }
+  .ticketing-container h2{
+    text-align: center;
+    font-family: 'Aileron-UltraLight';
+    font-size: 41px;
+    /* max-width: 280px; */
+    border-bottom: 2px solid #fff;
+  }
+  .ticketing-container p{
+    text-align: center;
+    font-family: 'Aileron-Light';
+    text-transform: uppercase;
+    font-size: 13px;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .ST-contentSec{
+    background-color: #029094;
+    padding:50px 30px;
+    margin: 40px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ST-col1{
+    width: 50%;
+  }
+  .ST-col1 h1{
+    font-family: 'Aileron-UltraLight';
+    font-size: 57px;
+    line-height: 51px;
+  }
+  .ST-col1 button{
+    background-color: transparent;
+    padding: 5px 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Aileron-Bold';
+    margin-top: 15px;
+  }
+  .ST-col1 h6{
+    font-family: 'Aileron-Bold';
+  }
+  .ST-col1 p{
+    font-family: 'Aileron-UltraLight';
+    letter-spacing: 1px;
+    
+  }
+  .STcoln2{
+    position: relative;padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .STcoln2::before{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 150px;
+    background-color: #fff;
+    left: 0;
+  }
+
+  /* responsivness */
+
+  @media(max-width:1024px){
+    .ticketing-container{
+        margin-top: 12%;
+        
+      }
+  }
+
+  @media(max-width:999px){
+    .ST-contentSec{
+        background-color: #029094;
+        padding:50px 30px;
+        margin: 40px 0;
+        color: #fff;
+        display: block;
+        align-items: center;
+        justify-content: center;
+      }
+      .ST-col1{
+        width: 100%;
+      }
+      .STcoln2{
+        margin-top: 30px;
+        position: relative;padding-left: 30px;
+      }   
+  }
+
+  @media(max-width:768px){
+    .ticketing-container{
+        margin-top: 14%;
+        
+      }
+      .ST-col1 h1{
+        font-family: 'Aileron-UltraLight';
+        font-size: 50px;
+        line-height: 48px;
+      }  
+      .STcoln2{
+        position: relative;padding-left: 0;
+      }
+      .STcoln2::before{
+        display: none;
+      }  
+  }
+
+  @media(max-width:600px){
+    .ticketing-container{
+        margin-top: 20%;
+        
+      }
+  }  
+
+  @media(max-width:450px){
+    .ticketing-container{
+        margin-top: 25%;
+        padding: 0 30px;
+      }
+  }  
+
+  @media(max-width:400px){
+    .ticketing-container{
+        margin-top: 30%;
+      }
+      .ticketing-container h2{
+        text-align: center;
+        font-family: 'Aileron-UltraLight';
+        font-size: 38px;
+      }
+      .ticketing-container p{
+        text-align: center;
+        font-family: 'Aileron-Light';
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+  } 
