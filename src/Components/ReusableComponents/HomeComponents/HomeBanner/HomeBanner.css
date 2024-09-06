@@ -465,7 +465,7 @@ outline: none;
     }
    
     .menuBar li{
-      padding: 0 8px;
+      padding: 8px 0;
       text-align: center;
     }
     .head h4{
@@ -539,7 +539,9 @@ outline: none;
   
   @media(max-width:600px){
     
-    
+    .Fst-btn{
+      border-bottom: 1px solid #fff !important;
+    } 
     .add-filter {
       position: absolute;
       right: 0;
@@ -718,6 +720,11 @@ outline: none;
   }
   
 @media(max-width:400px){
+  .homefooter{
+
+    margin-top: -18% !important;
+    
+  }
   .bar{
     background-color: #00666a;
     padding: 3px 8px;
@@ -833,4 +840,6 @@ outline: none;
   .frm-head p{
     font-size: 9px;
   }
+
+  
 }

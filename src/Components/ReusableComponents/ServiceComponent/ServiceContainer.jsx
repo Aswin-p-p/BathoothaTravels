@@ -8,7 +8,7 @@ function ServiceContainer() {
          <div className="serv-container">
       <div>
       <h2>Your Journey, Our Mission</h2>
-      <p>Ticketing &nbsp;&nbsp; | &nbsp;&nbsp; Hotel Booking &nbsp;&nbsp; | &nbsp;&nbsp; Passport Assistance &nbsp;&nbsp; | &nbsp;&nbsp; Foreign Exchange</p>
+      <p>Ticketing ,Hotel Booking ,Passport Assistance ,Foreign Exchange</p>
     </div>
      </div>
      <div className="service-theme">

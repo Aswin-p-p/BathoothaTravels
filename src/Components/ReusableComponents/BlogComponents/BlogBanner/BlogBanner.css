@@ -123,10 +123,6 @@
 
 @media(max-width:999px){
 
-  .menuBar li{
-    padding: 0 8px;
-    text-align: center;
-  }
   .bg-contents{
     display: block;
     justify-content: space-between;
@@ -183,35 +179,8 @@
        display: none;
       }
     
+   
     
-      .menuBar li{
-        padding: 8px 10px;
-        text-align: center;
-      }
-      .menuBar li a{
-        color: #fff;
-        font-weight: 500;
-        font-size: 20px;
-      }
-      .nav.active{
-        opacity: 1;
-        visibility: visible;
-        transform: translateX(0);
-      }
-      .nav.hide{
-        display: none;
-      }
-      .bar{
-        display: block;
-      }
-      .menuBar li:hover{
-        background-color: #fff;
-        border-radius: 50px;
-      }
-      .BG-container{
-        margin-top: 14%;
-        
-      } 
 }
 
 @media(max-width:600px){

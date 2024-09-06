@@ -22,8 +22,9 @@
     text-align: center;
     font-family: 'Aileron-Light';
     text-transform: uppercase;
-    font-size: 13px;
-    border-bottom: 1px solid #fff;
+    font-size: 12px;
+
+    /* border-bottom: 1px solid #fff; */
   }
   
   
@@ -354,10 +355,7 @@
     font-size: 12px;
    
   }
-  .menuBar li{
-    padding: 0 8px;
-    text-align: center;
-  }
+
 
   .service-theme{
     height: 100vh;
@@ -545,6 +543,8 @@
 }
 
 @media(max-width:400px){
+
+  
   .logo img{
     width: 150px !important;
     height: auto !important;
@@ -574,4 +574,11 @@
     padding: 15px 20px;
   }
  
+
+    .Svbook-with {
+        width: 70%;
+        height: auto;
+        position: absolute;
+      top: 44%;
+    }
 }

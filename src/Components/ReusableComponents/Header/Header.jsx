@@ -36,7 +36,7 @@ function Header() {
     <>
         <header className='navheader'>
     <div className="navbar">
-       <div className="logo"><img src='assets/homeimg/logo.png' alt="" /></div>
+       <div className="logo"><a href="/"><img src='assets/homeimg/logo.png' alt="" /></a></div>
        <div className={`nav ${isActive ? 'active' : ''} ${isHidden ? 'hide' : ''}`}>
         <div  className="btn-close1" onClick={toggleNavBarHide}><i className="fa-solid fa-xmark"></i></div>
         <div className="link">
@@ -53,7 +53,7 @@ function Header() {
       <li className="services-dropdown">
                 <Link to={'/service'}> Services</Link>
                 <ul className="dropdown-content">
-                <li className='sugli'><Link to={'/service_cooperative'}>Cooporate Travel</Link></li>
+                <li className='sugli'><Link to={'/service_cooperative'}>Coporate Travel</Link></li>
                   <li className='sugli'>Foreign Exchange</li>
                   <li className='sugli'><a href="/hotelpage">Hotel Booking</a></li>
                   <li className='sugli'><Link to={"/ticketpage"}>Ticketing</Link></li>
