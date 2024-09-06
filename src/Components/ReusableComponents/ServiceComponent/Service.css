@@ -120,7 +120,7 @@
   }
   .services{
     width: 764px;
-    height: 190px;
+    /* height: 190px; */
     background-color: #029094;
     color: #fff;
     padding: 15px 40px;

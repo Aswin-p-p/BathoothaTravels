@@ -50,12 +50,13 @@ function Header() {
       <li><Link to="/">Home</Link></li>
       <li><Link to="/aboutus">About Us</Link></li>
       <li className="services-dropdown">
-                <Link to={'/servicepage'}> Services</Link>
+                <Link to={'/service'}> Services</Link>
                 <ul className="dropdown-content">
-                <li className='sugli'><Link to={'/hotelbooking'}>Hotel Booking</Link></li>
-                  <li className='sugli'><Link to={"/ticket"}>ticketing</Link></li>
-                  <li className='sugli'><a href="/service3">Service 3</a></li>
-                  <li className='sugli'><Link to={"/servicedemo"}>ServiceDemopage</Link></li>
+                <li className='sugli'><Link to={'/service_cooperative'}>Cooporate Travel</Link></li>
+                  <li className='sugli'><Link to={"/ticketpage"}>Foreign Exchange</Link></li>
+                  <li className='sugli'><a href="/hotelpage">Hotel Booking</a></li>
+                  <li className='sugli'><Link to={"/ticketpage"}>Ticketing</Link></li>
+                  <li className='sugli'><Link to={"/ticketpage"}>Visa Assistance</Link></li>
                 </ul>
               </li>
       <li><Link to="/booking">Booking</Link></li>
