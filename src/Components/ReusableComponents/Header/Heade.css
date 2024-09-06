@@ -7,18 +7,22 @@
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  border-radius: 10px;
-  /* background-color: #f9f9f9; */
-  min-width: 160px;
-  background-color: white ;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+     display: none;
+     position: absolute;
+     left: -34px;
+
+     border-radius: 10px;
+   
+     /* background-color: #f9f9f9; */
+     /* min-width: 160px; */
+     background-color: white;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     padding: 0;
 }
 
 .dropdown-content .sugli {
-  padding: 10px 15px !important;
+  padding: 7px 23px !important;
   text-decoration: none;
   display: block;
 }
@@ -113,8 +117,11 @@ header {
   color: #000;
   font-family: 'Aileron-Light';
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
   /* font-weight: 600; */
+}
+.resLnk{
+  display: none;
 }
 .link a:hover{
   color: #00666a;
@@ -242,6 +249,8 @@ font-size: 13px;
 }
 
 @media(max-width:768px){
+ 
+  
   body{
     margin: 0 0 !important; 
     }
@@ -278,11 +287,16 @@ font-size: 13px;
 }
 
 @media(max-width:900px){
-       
+  .services-dropdown:hover .dropdown-content {
+    display: none;
+}
+.services-dropdown {
+  display: block;
+}
+      
   header {
-    padding: 0 80px;
+    padding: 0 30px;
   }
-     
   .btn-close1{
     display: block;
   }
@@ -295,46 +309,60 @@ font-size: 13px;
       
       }
       .nav{
-        width: 100%;
-        height: 100vh;
+        width: 100% !important;
+        height: 90vh;
         background-color: #00656b;
         opacity: 0;
         visibility: hidden;
         transform: translateX(40px);
         transition: 0.4s linear;
         position: absolute;
-        z-index: 9999;
-        padding: 60px 0;
-        /* display: grid;
-        place-items: center; */
-        z-index: 9999;
+        z-index: 9999;        
         top: 0;
-        left: 0;
         right: 0;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        opacity: 0.7;
+      }
+      .nav.active{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
 
+      }
+      .mainMenu{
+        padding: 60px 0;
       }
     
       .link{
-        position: absolute;
+        display: none;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
         border-bottom: none;
-        display: grid;
-        place-items: center;
-        /* max-width: 100%; */
-        bottom: 35%;
-        left: 0;
-        right: 0;
-        transform: translate(13%, 10%);
+      }
+      .resLnk{
+        display: block ;
       }
       .line-bar{
        display: none;
       }
       .link li{
         padding: 5px 0;
+       
       }
-      .link li:hover{
-        background-color: #fff;
-        border-radius: 50px;
-        padding: 8px 30px;
+      .link a:hover{
+        color: #fff;
+        border-bottom: 1px solid #fff;
+      }
+      .menuBar li a:hover{
+        color:#fff;
+        font-weight: normal;
+        border-bottom: 1px solid #fff;
       }
 
       .link a{
@@ -347,6 +375,7 @@ font-size: 13px;
       }
     .menuBar{
         display: block;
+        padding-left: 0;
       }
       .menuBar li{
         padding: 8px 0;
@@ -357,35 +386,13 @@ font-size: 13px;
         font-weight: 500;
         font-size: 20px;
       }
-      .nav.active{
-        opacity: 1;
-        visibility: visible;
-        transform: translateX(0);
-      }
-      .nav.hide{
-        display: none;
-      }
       .bar{
         display: block;
       }
-      .menuBar li:hover{
-        background-color: #fff;
-        border-radius: 50px;
-      }
+   
 }
 
 @media(max-width:600px){
-  .link{
-    position: absolute;
-    border-bottom: none;
-    display: grid;
-    place-items: center;
-    /* max-width: 100%; */
-    bottom: 35%;
-    left: 0;
-    right: 0;
-    transform: translate(0, 10%);
-  }
   
   .add-filter {
     position: absolute;
@@ -561,9 +568,7 @@ font-size: 13px;
 }
 
 @media(max-width:400px){
-  .link{
-    transform: translate(-10px, 10%);
-  }
+  
   .sliderCont{
     width: 100%;
     position: absolute;

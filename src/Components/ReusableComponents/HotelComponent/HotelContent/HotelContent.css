@@ -17,14 +17,14 @@
     font-family: 'Aileron-UltraLight';
     font-size: 41px;
     max-width: 280px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
   }
   .HB-container p{
     text-align: center;
     font-family: 'Aileron-Light';
     text-transform: uppercase;
     font-size: 13px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
   }
   
   .HB-section{
@@ -46,7 +46,7 @@
   }
   .HBSection-col1 button{
     background-color: transparent;
-    padding: 5px 80px;
+    padding: 5px 100px;
     border: 1px solid #fff;
     color: #fff;
     font-family: 'Aileron-Bold';

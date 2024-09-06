@@ -1,6 +1,6 @@
 import React from 'react'
 import './Service.css'
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 
 function ServicePackage() {
   return (
@@ -19,7 +19,7 @@ function ServicePackage() {
         </p>
       </div>
       <div className="svExploreBtn">
-      <Link to="/ticketpage">  <button>EXPLORE MORE</button> </Link>
+      <a href="/ticketpage">  <button>EXPLORE MORE</button> </a>
       </div>
     </div>
   </div>
@@ -34,7 +34,7 @@ function ServicePackage() {
         </p>
       </div>
       <div className="svExploreBtn-Left">
-      <Link to="/hotelpage">  <button>EXPLORE MORE</button> </Link>
+      <a href="/hotelpage">  <button>EXPLORE MORE</button> </a>
       </div>
     </div>
     <div className="SvImg">
@@ -55,7 +55,7 @@ function ServicePackage() {
         </p>
       </div>
       <div className="svExploreBtn">
-      <Link to="/visapage">  <button>EXPLORE MORE</button> </Link>
+      <a href="/visapage">  <button>EXPLORE MORE</button> </a>
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@ function ServicePackage() {
         </p>
       </div>
       <div className="svExploreBtn-Left">
-      <Link to="/hotelpage">  <button>EXPLORE MORE</button> </Link>
+       <button>EXPLORE MORE</button> 
       </div>
     </div>
     <div className="SvImg">

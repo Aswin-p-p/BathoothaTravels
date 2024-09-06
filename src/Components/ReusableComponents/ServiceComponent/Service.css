@@ -390,19 +390,7 @@
 
 @media(max-width:768px){
 
-      
-    
-   
-      .link li:hover{
-        background-color: #fff;
-        border-radius: 50px;
-      }
 
-      .link a{
-        color: #ffffff;
-        font-size: 20px;
-        text-transform: none;
-      }
      
 
      
@@ -561,9 +549,7 @@
     width: 150px !important;
     height: auto !important;
   }
-  .link{
-    transform: translate(-10px, 10%);
-  }
+
   .serv-container{
     margin-top: 30%;
   }

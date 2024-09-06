@@ -46,6 +46,7 @@ function Header() {
       <div className="line-bar"></div>
       <li><Link to="/terms">Terms and Conditions</Link></li>
     </div>
+    <div class="mainMenu">
         <ul className="menuBar">
       <li><Link to="/">Home</Link></li>
       <li><Link to="/aboutus">About Us</Link></li>
@@ -53,16 +54,24 @@ function Header() {
                 <Link to={'/service'}> Services</Link>
                 <ul className="dropdown-content">
                 <li className='sugli'><Link to={'/service_cooperative'}>Cooporate Travel</Link></li>
-                  <li className='sugli'><Link to={"/ticketpage"}>Foreign Exchange</Link></li>
+                  <li className='sugli'>Foreign Exchange</li>
                   <li className='sugli'><a href="/hotelpage">Hotel Booking</a></li>
                   <li className='sugli'><Link to={"/ticketpage"}>Ticketing</Link></li>
-                  <li className='sugli'><Link to={"/ticketpage"}>Visa Assistance</Link></li>
+                  <li className='sugli'><Link to={"/visapage"}>Visa Assistance</Link></li>
                 </ul>
               </li>
       <li><Link to="/booking">Booking</Link></li>
       <li><Link to="/blog">Blog</Link></li>
       <li><Link to="/contactus">Contact Us</Link></li>
     </ul>
+    <div class="link resLnk">
+                  <li><a href="">Reservation Policy </a></li>
+                  <div class="line-bar"></div>
+                  <li><a href="">FAQ </a></li>
+                  <div class="line-bar"></div>
+                  <li><a href="">Terms and Conditions</a></li>
+               </div>
+    </div>
       </div>
         <div className="bar"  onClick={toggleNavBar}><i className="fa-solid fa-bars"></i></div>
        </div>

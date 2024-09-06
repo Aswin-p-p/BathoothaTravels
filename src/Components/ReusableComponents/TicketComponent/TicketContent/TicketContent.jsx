@@ -13,7 +13,7 @@ function TicketContent() {
 
      <div className="ST-contentSec">
         <div className="ST-col1">
-            <h1>Unlock the Best Airfare Deals!</h1>
+            <h1>Unlock the <br /> Best Airfare Deals!</h1>
             <button>Now, let’s book my ticket </button>
         </div>
         <div className="ST-col1 STcoln2">

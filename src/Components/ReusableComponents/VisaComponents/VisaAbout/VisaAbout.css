@@ -18,14 +18,14 @@
     font-family: 'Aileron-UltraLight';
     font-size: 41px;
     max-width: 280px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
   }
   .VA-container p{
     text-align: center;
     font-family: 'Aileron-Light';
     text-transform: uppercase;
     font-size: 13px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1px solid #fff;
   }
   
   .VA-coln2Sect{
@@ -102,6 +102,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    font-family: 'Aileron-Regular';
   }
   .fa-minus{
     font-size: 10px;

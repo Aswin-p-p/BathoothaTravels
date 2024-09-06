@@ -5,6 +5,10 @@
     font-family: 'Aileron-UltraLight';
     letter-spacing: 1px;
   }
+  .tickbook{
+    margin-top: 8%;
+    margin-bottom: 5%;
+  }
   
   .ST-row{
     display: flex;
@@ -90,6 +94,7 @@
   }
   .ticketing-services h5{
     font-family: 'Aileron-Bold';
+    padding: 20px 0;
   }
   
   .Ticket-services{

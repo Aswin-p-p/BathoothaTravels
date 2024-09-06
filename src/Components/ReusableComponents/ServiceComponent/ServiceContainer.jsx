@@ -23,7 +23,7 @@ function ServiceContainer() {
                 <p>For small businesses, the key to a successful trip is having confident, well-supported employees. That's why we offer Traveler Tracking through our dedicated team, allowing you to quickly locate and assist your travelers when they need it the most.</p>
                 <p>When your team requires assistance, our travel experts are ready to help in their native language—we have consultants fluent in over 10 languages. Additionally, our website offers convenient self-service options for quick and easy support.</p>
               </div>
-              <div  className="sv-btn"><Link to="/service_cooperative">  <button>EXPLORE MORE</button> </Link></div>
+              <div  className="sv-btn"><a href="/service_cooperative">  <button>EXPLORE MORE</button> </a></div>
             </div>
         </div>
      </div>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <>
-      <div className="guidence">
+      <div className="guidence footerguidence">
         <div className="coln1">
           <div className="cont1 line">
             <div className="circle">

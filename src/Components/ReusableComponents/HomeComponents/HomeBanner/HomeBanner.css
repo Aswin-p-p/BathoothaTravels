@@ -2,7 +2,9 @@
   opacity: 0;
   /* transition: opacity 0.3s ease-in-out; */
 }
-
+.Fst-btn{
+  border-bottom: none !important;
+} 
 .forms-coln.show {
   opacity: 1;
 }
@@ -250,10 +252,12 @@ font-family: 'Aileron-Thin';
 }
 .form-btns h6{
   max-width: 155px;
+  font-family: 'Aileron-Bold';
 }
 .form-btns h6 span{
   font-size: 15px;
   font-weight: 300;
+  font-family: 'Aileron-Thin';
 }
 
 .guidence{
@@ -267,17 +271,18 @@ font-family: 'Aileron-Thin';
 .coln1{
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   padding: 15px 0;
 }
 .cont1{
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   font-family: 'Aileron-Thin';
 }
 .cont1 p{
   padding-top: 10px;
+  letter-spacing: 1px;
 }
 .circle{
   width: 50px;
@@ -469,12 +474,7 @@ outline: none;
     .head h4 span{
       font-size: 19px;
     }
-    .link{
-      max-width: 350px;
-    }
-    .link a{
-      font-size: 11px;
-    }
+ 
   }
   
 @media(max-width:768px){
@@ -676,6 +676,8 @@ outline: none;
       display: flex;
       justify-content: center;
     }
+
+  
     .form-btns{
       /* width: 250px; */
       height: 160px;
@@ -693,11 +695,13 @@ outline: none;
       font-size: 14px;
       max-width: 150px;
       text-align: center;
+      font-family: 'Aileron-Bold';
     }
     .form-btns h6 span{
       font-size: 13px;
       font-weight: 300;
       text-align: center;
+      font-family: 'Aileron-Thin';
     }
     .form-btns img{
       width: 50px!important;
@@ -726,9 +730,7 @@ outline: none;
     width: 30px;
   }
    */
-  .link{
-    transform: translate(-10px, 10%);
-  }
+  
   .sliderCont{
     width: 100%;
     position: absolute;

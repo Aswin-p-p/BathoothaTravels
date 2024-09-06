@@ -37,3 +37,7 @@ margin: 0 80px !important;
 position: relative;
 /* overflow-x: hidden !important; */
 }
+
+p{
+  letter-spacing: 1px;
+}

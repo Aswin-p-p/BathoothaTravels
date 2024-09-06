@@ -9,7 +9,7 @@ function Cooperaivepage() {
     <>   
     <Header/>
     <Cooperative/>
-    <Bookwithus/>
+    {/* <Bookwithus/> */}
     <Footer/>
     </>
   )
