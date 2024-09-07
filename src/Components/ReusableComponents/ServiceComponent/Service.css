@@ -234,6 +234,7 @@
 
   
 @media(max-width:1440px){
+  
   .line1{
     display: none;
   }
@@ -600,3 +601,17 @@
       top: 46%;
     }
 }
+
+@media (min-width: 1024px)and (max-width:1440px){
+  .Svbook-with {
+ 
+    padding: 10px 50px;
+    color: #fff;
+}
+}
+/* @media (min-width: 1024px) and (max-width: 1440px) {
+  .Svbook-with {
+    padding: 10px 50px;
+    color: #fff;
+  }
+} */

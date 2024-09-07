@@ -83,7 +83,7 @@ function TicketAbout() {
     <div class="AB-booking tickbook">
       <div className="serv-travel">
   <img src="assets/serviceimage/travel.jpg" alt="" />
-  <div className="Svbook-with">
+  <div className="Svbook-with ticketsv">
     <div>
       <h3>Why Book with Us</h3>
       <p>We strive hard to make every second of your travel experience beautiful, comfortable, and enjoyable.</p>

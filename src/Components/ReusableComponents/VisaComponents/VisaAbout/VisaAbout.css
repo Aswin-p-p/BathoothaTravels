@@ -107,8 +107,14 @@
   .fa-minus{
     font-size: 10px;
   }
+  @media(max-width:1440px){
+    .visassis{
+      padding: 2px 51px;
+    }
+  }
   
   @media(max-width:1024px){
+    
     .VA-container{
       margin-top: 12%;
       

@@ -215,6 +215,13 @@
   } 
 
  @media(max-width:400px){
+ 
+    .bookCT-col1 h1 {
+        font-family: 'Aileron-UltraLight';
+        font-size: 43px;
+        line-height: 48px;
+    
+}
   .services-list{
     flex-wrap: wrap;
  }

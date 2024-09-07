@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './HotelAbout.css'
 
 function HotelAbout() {
+  const [checkInDate, setCheckInDate] = useState('');
+  const [checkOutDate, setCheckOutDate] = useState('');
   return (
    <>
    <div className="HB-coln3Sect">
@@ -31,15 +33,27 @@ function HotelAbout() {
                   <input type="text" placeholder=" Where are you going ? "/>
                 </div>
 
-                <div class="frm-box ">
-                  <img src="assets/hotelimage/date.png" alt=""/>
-                  <div class="dateBox">
-                  <input type="text" id="date-input" placeholder="Check-in - Date  -" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'"/>
-                  <input type="text" id="date-input" placeholder="Check-out date" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'"/>
-                </div>
-                   {/* <input type="date" placeholder=" Check-in - Date  -">
-                  <input type="date" placeholder="Check - out date ">  */}
-                </div>
+                <div className="frm-box">
+      <img src="assets/hotelimage/date.png" alt="Date Icon" />
+      <div className="dateBox">
+        <input
+          type={checkInDate ? 'date' : 'text'}
+          value={checkInDate}
+          onFocus={() => setCheckInDate('')}
+          onBlur={(e) => !e.target.value && setCheckInDate('')}
+          placeholder="Check-in - Date -"
+          onChange={(e) => setCheckInDate(e.target.value)}
+        />
+        <input
+          type={checkOutDate ? 'date' : 'text'}
+          value={checkOutDate}
+          onFocus={() => setCheckOutDate('')}
+          onBlur={(e) => !e.target.value && setCheckOutDate('')}
+          placeholder="Check-out date"
+          onChange={(e) => setCheckOutDate(e.target.value)}
+        />
+      </div>
+    </div>
 
                 <div className="frm-box">
                   <img src="assets/hotelimage/room.png" alt=""/>

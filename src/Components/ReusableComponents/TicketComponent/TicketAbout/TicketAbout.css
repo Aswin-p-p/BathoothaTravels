@@ -122,7 +122,14 @@
   }
 
   /* responsivness */
+  @media (min-width: 1024)and(max-width:1440px){
+    .ticketsv{
+      padding:  34px !important ;
+    }
+  }
+
   @media(max-width:999px){
+   
     .ST-contentSec{
         background-color: #029094;
         padding:50px 30px;

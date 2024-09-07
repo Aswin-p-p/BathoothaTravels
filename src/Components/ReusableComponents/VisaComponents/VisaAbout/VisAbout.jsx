@@ -52,7 +52,7 @@ function VisAbout() {
   <div class="AB-booking">
       <div className="serv-travel">
   <img src="assets/serviceimage/travel.jpg" alt="" />
-  <div className="Svbook-with">
+  <div className="Svbook-with  visassis">
     <div>
       <h3>Why Book with Us</h3>
       <p>We strive hard to make every second of your travel experience beautiful, comfortable, and enjoyable.</p>
