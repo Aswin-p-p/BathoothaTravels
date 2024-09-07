@@ -390,7 +390,9 @@
 @media(max-width:768px){
 
 
-     
+  .services-colns {
+    padding: 30px ;
+}
 
      
       .serv-container{
@@ -485,7 +487,10 @@
 }
 
 @media(max-width:600px){
- 
+  .Svbook-with{
+    width: 85%;
+
+  }
   .serv-container{
     margin-top: 20%;
     
@@ -584,12 +589,12 @@
   }
   
  .Svbook-with{
-    padding: 15px 20px;
+    padding: 5px 20px;
   }
  
 
     .Svbook-with {
-        width: 70%;
+        width: 89%;
         height: auto;
         position: absolute;
       top: 46%;

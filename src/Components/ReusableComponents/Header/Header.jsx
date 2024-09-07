@@ -38,7 +38,7 @@ function Header() {
     <div className="navbar">
        <div className="logo"><a href="/"><img src='assets/homeimg/logo.png' alt="" /></a></div>
        <div className={`nav ${isActive ? 'active' : ''} ${isHidden ? 'hide' : ''}`}>
-        <div className="reslogo"><img src="assets/homeimg/resLogo.png" alt="" /></div>
+        <div className="reslogo"><a href="/"><img src="assets/homeimg/resLogo.png" alt="" /></a></div>
         <div  className="btn-close1" onClick={toggleNavBarHide}><i className="fa-solid fa-xmark"></i></div>
         <div className="link">
       <li><Link to="/reserve">Reservation Policy</Link></li>

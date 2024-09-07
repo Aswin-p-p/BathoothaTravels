@@ -149,7 +149,7 @@ function HomeBanner() {
           </div>
         </div>
       </Slider>
-      <div className="guidence homefooter">
+      <div className="homefooter">
         <div className="coln1">
           <div className="cont1 line">
             <div className="circle"><img src="assets/homeimg/1.png" alt="" /></div>

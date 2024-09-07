@@ -17,6 +17,7 @@ function AboutBanner() {
         <div className="team-img"><img src="assets/aboutimage/asheer-sir.png" alt=""/></div>
       </div>
      </div>
+     
   </>
   )
 }

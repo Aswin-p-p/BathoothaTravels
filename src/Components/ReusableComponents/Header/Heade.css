@@ -48,25 +48,10 @@
   white-space: nowrap;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* //ende */
 .header.scrolled {
   background-color: white ;
+  box-shadow: 0 0 10px #ccc;
 }
 header {
     position: fixed;
@@ -165,7 +150,6 @@ header {
 
 @media(max-width:1440px){
 
-
   .forms-coln{
     width: 52%;
     height: auto !important;
@@ -175,56 +159,16 @@ header {
     padding:0 20px;
     margin-top: 10px;
   }
-  .form_Book input{
-    width: 100%;
-    padding: 5px 30px;
-    border-radius: 50px;
-    margin: 5px 10px;
-    outline: none;
-  }
-  .search-btn{
-    margin-top: 10px;
-  }
-  .frm-head h5{
-    font-size: 18px;
-  }
-  .frm-head p{
-    font-size: 14px;
-  }
+
 }
 @media(max-width:1024px){
   .head{
     gap: 5px;
   }
-  .form_Book input::placeholder{
-    color: #000;
-    font-size: 12px;
-  }
-  .frm-head{
-    text-align: center;
-    margin-top: 5px;
-  }
-  .frm-head p{
-    font-size: 12px;
-  }
-  .search-btn button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-font-size: 13px;
-  }
+
 }
 @media(max-width:999px){
-  .add-filter {
-    position: absolute;
-    right: 0;
-    top: 0;
-    /* filter: grayscale(1);  */
-    width: calc(100% - 52%);
-    height: 100%;
-    z-index: 2; 
-    border-left: 1px solid #fff;
-  }
+
   header {
     top: 0;
     /* padding: 0 0; */
@@ -234,12 +178,7 @@ font-size: 13px;
     padding: 0 8px;
     text-align: center;
   }
-  .head h4{
-    font-size: 17px;
-  }
-  .head h4 span{
-    font-size: 19px;
-  }
+
   .link{
     max-width: 350px;
   }
@@ -249,36 +188,13 @@ font-size: 13px;
 }
 
 @media(max-width:768px){
- 
-  
-
-   
-  .add-filter {
-    width: calc(100% - 399px);
-  }
-   
   .formBook input{
 
     width: 100%;
     padding: 5px 30px;
     margin: 5px 10px;
   }
-  .frm-head{
-    text-align: center;
-    margin-top:5px;
-  }
-  .frm-head h5{
-    font-size: 14px;
-  }
-  .search-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* margin-top: 10px; */
-  }
-  .frm{
-    margin-top: -14px;
-  }
+
 }
 
 @media(max-width:900px){
@@ -320,7 +236,7 @@ font-size: 13px;
   }
       .nav{
         width: 100% !important;
-        height: 90vh;
+        height: 100vh;
         background-color: #00656b;
         opacity: 0;
         visibility: hidden;
@@ -441,52 +357,6 @@ font-size: 13px;
     font-family: 'Aileron-UltraLight';
     letter-spacing: 1px;
   }
-  .add-filter {
-    position: absolute;
-    right: 0;
-    top: 0;
-    /* filter: grayscale(1);  */
-    width: calc(100% - 52%);
-    height: 100%;
-    z-index: 2; 
-    border-left: 1px solid #fff;
-  }
-  .image img{
-    width: 180px !important;
-    height: auto !important;
-    background: transparent;
-  
-  }
- 
-  
-  .coln1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
-    gap: 10px;
-    padding: 20px 0;
-  }
-  .cont1{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-family: 'Aileron-Thin';
-    /* margin: 0 8px; */
-  }
-  .circle{
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-  }
-  .circle img{
-    width: 20px;
-  }
- 
-  .cont1 p{
-    padding-top: 10px;
-    font-size: 12px;
-  }
   /* .line{
    border-right: none;
   } */
@@ -553,15 +423,6 @@ font-size: 13px;
     
   }
    
-  .add-filter {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    height: 100vh;
-    z-index: 2; 
-    border-left: none;
-  }
   .btns{
     height: 100vh;
     top: 53.6%;
@@ -661,48 +522,12 @@ font-size: 13px;
     font-weight: 300;
     text-align: center;
   }
- 
-  .cont1{
-    display: flex;
-    align-items: center;
-    gap:0;
-    font-family: 'Aileron-Thin';
-  }
   .line{
     border-right: 1px solid #00666a;
     padding-right: 0px;
   }
-  .cont1 p{
-    font-size: 9px;
-  }
-  .cont1{
-    gap: 8px;
-  }
-  .circle{
-    width: 25px;
-    height: 25px;
-    border-radius: 50px;
-  }
-  .circle img{
-    width: 15px;
-  }
-
- 
-}
-@media(max-width:350px){
-  .circle{
-    width: 33px;
-    height: 28px;
-    border-radius: 50px;
-  }
-  .circle img{
-    width: 15px;
-  }
   .line{
     border-right: 1px solid #00666a;
     padding-right: 2px;
-  }
-  .coln1{
-    gap: 3px;
   }
 }
