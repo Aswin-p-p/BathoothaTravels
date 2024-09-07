@@ -122,7 +122,7 @@
   }
 
   /* responsivness */
-  @media (min-width: 1024)and(max-width:1440px){
+  @media (min-width: 1024px)and(max-width:1440px){
     .ticketsv{
       padding:  34px !important ;
     }
