@@ -1,45 +1,56 @@
+.testimonial-Section{
+  display: grid;
+  place-items: center;
+position: relative;
+margin: 80px 0;
+}
 
-.ab-testimonials{
-    display: grid;
-    place-items: center;
-    margin: 80px 0;
-    text-align: center;
-    position: relative;
-    padding: 0 30px;
-  }
-  .ab-testimonials::after{
-    position: absolute;
-    content: "";
-    width: 30%;
-    height: 1px;
-    background-color: #000;
-    right: 40px;
-  }
-  .ab-testimonials::before{
-    position: absolute;
-    content: "";
-    width: 30%;
-    height: 1px;
-    background-color: #000;
-    left: 40px;
-  }
-  .ab-testimonials h4{
-    font-family: 'Aileron-Thin';
-    font-size: 32px;
-    letter-spacing: 10px;
-    padding-bottom: 15px;
-  }
-  .testimonials{
-    display: grid;
-    place-items: center;
-    max-width: 500px;
-  
-  }
-  .testimonials p{
-    font-family: 'Aileron-Light';
-    font-size: 18px;
-    padding-top: 15px;
-  }
+.testimonial-Section::after{
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 1px;
+  background-color: #000;
+  right: 10px;
+
+
+}
+.testimonial-Section::before{
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 1px;
+  background-color: #000;
+  left: 10px;
+}
+.testimonial-div{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 30px;
+  display: grid;
+  place-items: center;
+}
+
+
+.ab-testimonials h4{
+  font-family: 'Aileron-Thin';
+  font-size: 32px;
+  letter-spacing: 10px;
+  padding-bottom: 15px;
+}
+.testimonials{
+  display: grid;
+  place-items: center;
+  padding: 0 30px;
+
+}
+.testimonials p{
+  font-family: 'Aileron-Light';
+  font-size: 18px;
+  padding-top: 15px;
+}
+
   #name{
     font-weight: 600;
   }
@@ -72,20 +83,29 @@
   
 @media(max-width:1440px){
 
-  .ab-testimonials::after{
+  .testimonial-Section::after{
     width: 20%;
   }
-  .ab-testimonials::before{
+  .testimonial-Section::before{
     width: 20%;
   }
 }
 
 @media(max-width:999px){
-  .ab-testimonials::after{
+    
+  .testimonial-Section::after{
     display: none;
    }
-   .ab-testimonials::before{
+   .testimonial-Section::before{
      display: none;
+   }
+   .testimonial-div{
+     width: 100%;
+     margin: 80px auto;
+     text-align: center;
+     padding: 0 30px;
+     display: grid;
+     place-items: center;
    }
 }
 @media(max-width:400px){
