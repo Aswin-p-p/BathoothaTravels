@@ -299,12 +299,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:40px 50px;
+    padding:35px 35px;
   color: #fff;
+  width: 440px;
   }
   .Svbook-with h3{
     font-family: 'Aileron-Light';
-    font-size: 30px;
+    font-size: 28px;
   }
   .Svbook-with p{
     font-family: 'Aileron-UltraLight';
@@ -455,7 +456,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding:20px 40px;
+        padding:10px 40px;
       color: #fff;
       }
       .Svbook-with h3{
@@ -497,6 +498,14 @@
 
 }
 @media(max-width:500px){
+  .svExploreBtn-Left button {
+   
+    margin-left: 10px;
+  }
+  #svHead {
+
+    padding-left: 12px;
+}
  
   .Svlist li{
         display: block;
@@ -521,6 +530,10 @@
 
 }
 @media(max-width:450px){
+  .serv-travel {
+    height: 90vh;
+    margin: 84px 0;
+  }
   .serv-container h2 {
     font-size: 31px;
   }
@@ -579,6 +592,6 @@
         width: 70%;
         height: auto;
         position: absolute;
-      top: 44%;
+      top: 46%;
     }
 }

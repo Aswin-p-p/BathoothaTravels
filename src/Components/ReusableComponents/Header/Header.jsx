@@ -18,7 +18,7 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const header = document.querySelector('.navheader');
+      const header = document.querySelector('.header');
       if (header) {
         header.classList.toggle('scrolled', window.scrollY > 50);
       }
@@ -34,10 +34,11 @@ function Header() {
 
   return (
     <>
-        <header className='navheader'>
+        <header className='header'>
     <div className="navbar">
        <div className="logo"><a href="/"><img src='assets/homeimg/logo.png' alt="" /></a></div>
        <div className={`nav ${isActive ? 'active' : ''} ${isHidden ? 'hide' : ''}`}>
+        <div className="reslogo"><img src="assets/homeimg/resLogo.png" alt="" /></div>
         <div  className="btn-close1" onClick={toggleNavBarHide}><i className="fa-solid fa-xmark"></i></div>
         <div className="link">
       <li><Link to="/reserve">Reservation Policy</Link></li>
@@ -63,14 +64,15 @@ function Header() {
       <li><Link to="/booking">Booking</Link></li>
       <li><Link to="/blog">Blog</Link></li>
       <li><Link to="/contactus">Contact Us</Link></li>
-    </ul>
-    <div class="link resLnk">
+      <div class="link resLnk">
                   <li><a href="">Reservation Policy </a></li>
                   <div class="line-bar"></div>
                   <li><a href="">FAQ </a></li>
                   <div class="line-bar"></div>
                   <li><a href="">Terms and Conditions</a></li>
                </div>
+    </ul>
+    
     </div>
       </div>
         <div className="bar"  onClick={toggleNavBar}><i className="fa-solid fa-bars"></i></div>
