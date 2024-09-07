@@ -680,7 +680,7 @@ outline: none;
      
     .homefooter{
    
-      margin-top: -60px;
+      margin-top: -93px;
     }
   }
   
@@ -800,4 +800,16 @@ outline: none;
   }
 
   
+}
+
+@media (max-width: 399px) {
+  .homefooter {
+      margin-top: -24% !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .homefooter {
+      margin-top: -23% !important;
+  }
 }
