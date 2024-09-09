@@ -848,6 +848,9 @@ outline: none;
 }
 
 @media (max-width:600px){
+  span.main-span {
+    color: white ;
+  }
   .form_Book input {
 
 background: transparent;
@@ -872,7 +875,7 @@ outline: none;
 }
 @media(max-width:375px){
   span.main-span {
-    color: white !important;
+    color: white ;
   }
   .sub-span{
     padding-right: 16px;
