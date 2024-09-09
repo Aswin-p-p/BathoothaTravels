@@ -193,7 +193,7 @@
     }
     .line{
       border-right: 1px solid #00666a;
-      padding-right: 0px;
+      padding-right: 25px;
     }
     .cont1 p{
       font-size: 9px;
@@ -221,4 +221,3 @@
   
   }
 
-  
