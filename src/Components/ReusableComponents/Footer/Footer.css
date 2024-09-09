@@ -104,6 +104,14 @@
     color: #000;
   }
 
+  @media(min-width:1350px) and (max-width:1440px){
+    .footerguidence{
+     
+      flex-wrap: nowrap;
+      
+    }
+  }
+
   @media(max-width:600px){
     /* .homefooter{
       margin-top: -63px !important; 

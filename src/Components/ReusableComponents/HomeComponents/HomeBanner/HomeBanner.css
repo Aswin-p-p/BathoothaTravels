@@ -63,7 +63,7 @@
   padding: 80px 30px;
   /* transition: 0.4s linear; */
   opacity: 0;
-  visibility: hidden;
+
   /* transform: translateX(-40px); */
 }
 
@@ -84,7 +84,7 @@ font-size: 18px;
 
 .forms-coln.show{
     opacity: 1;
-    visibility: visible;
+   
     /* transform: translateX(0); */
 }
 .form-btns:hover {
@@ -180,12 +180,12 @@ font-family: 'Aileron-Thin';
   padding: 24px 30px;
   /* transition: 0.3s linear; */
   opacity: 0;
-  visibility: hidden;
+  
   /* transform: translateX(-40px); */
 }
 .forms-coln2.show1{
     opacity: 1;
-    visibility: visible;
+    /* visibility: visible; */
     /* transform: translateX(0); */
 }
 .hideFrm1{
@@ -361,7 +361,14 @@ outline: none;
   text-decoration: none;  
   color: #000;
 }
-
+@media(min-width:1350px) and (max-width:1440px){
+  .homefooter{
+   
+    flex-wrap: nowrap;
+    
+  }
+}
+/*  */
 
 @media(max-width:1440px){
     .line1{
@@ -394,6 +401,23 @@ outline: none;
       font-size: 14px;
     }
   }
+
+
+  @media (max-width: 600px) {
+    .booking{
+      margin-top: 40px
+    }
+    .icons button {
+      font-size: 12px; /* Smaller font size for mobile */
+    }
+    .icons button img {
+      width: 15px; /* Reduce image size for mobile */
+    }
+  }
+  .forms-coln {
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+  }
+      
   
 
 @media(max-width:1024px){
@@ -688,7 +712,7 @@ outline: none;
   .homefooter{
 
     margin-top: -19% !important;
-    
+
   }
 
   /* #fly{
@@ -736,7 +760,13 @@ outline: none;
     font-weight: 300;
     text-align: center;
   }
- 
+ .coln1{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* padding-top: 37px; */
+ }
   .cont1{
     display: flex;
     align-items: center;
@@ -803,6 +833,9 @@ outline: none;
 }
 
 @media (max-width: 399px) {
+  .slick-slide img {
+    display: block; object-position:20%;
+}
   .homefooter {
       margin-top: -24% !important;
   }
@@ -811,5 +844,37 @@ outline: none;
 @media (max-width: 375px) {
   .homefooter {
       margin-top: -23% !important;
+  }
+}
+
+@media (max-width:600px){
+  .form_Book input {
+
+background: transparent;
+border: 1px solid #000;
+width: 300px;
+padding: 8px 30px;
+border-radius: 50px;
+margin: 4px 0;
+outline: none;
+}
+}
+
+@media(max-width:321px){
+  .frm{
+    width: 261px;
+    
+  }
+  .sub-span{
+    padding-right: 16px;
+  }
+
+}
+@media(max-width:375px){
+  span.main-span {
+    color: white !important;
+  }
+  .sub-span{
+    padding-right: 16px;
   }
 }

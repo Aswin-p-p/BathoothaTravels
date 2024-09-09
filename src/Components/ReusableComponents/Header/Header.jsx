@@ -72,6 +72,12 @@ function Header() {
                   <li><a href="">Terms and Conditions</a></li>
                </div>
     </ul>
+    <div class="socialMedia">
+                     <div><a href=""><i class="fa-brands fa-facebook-f"></i></a></div>
+                     <div><a href=""><i class="fa-brands fa-instagram"></i></a></div>
+                     <div><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                     <div><a href=""><i class="fa-brands fa-linkedin-in"></i></a></div>
+                  </div>
     
     </div>
       </div>

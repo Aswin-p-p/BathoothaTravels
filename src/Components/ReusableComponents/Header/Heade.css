@@ -148,6 +148,15 @@ header {
   /* color: #00656b; */
 }
 
+
+.socialMedia{
+  display: none;
+}
+.socialMedia i{
+  color: #fff;
+  font-size: 18px;
+}
+
 @media(max-width:1440px){
 
 
@@ -324,7 +333,7 @@ header {
   .mainMenu{
     position: absolute;
     left: 60px;
-    top: 98px;
+    top: 120px;
   }
   .menuBar li{
     padding: 8px 0;
@@ -387,6 +396,14 @@ header {
   .copyright p{
     text-align: center;
     font-size: 13px;
+  }
+
+  .socialMedia{
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
   }
 }
 @media(max-width:500px){
