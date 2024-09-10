@@ -13,7 +13,7 @@ function AboutBanner() {
         <p>The team behind our travel agency is a group of passionate travel enthusiasts and industry professionals dedicated to creating exceptional travel experiences.</p>
       </div> </div>
       <div className="image">
-        <p>Asheer nakunnath <br/><span>Managing Director</span></p>
+        <p>Asheer Nakunnath <br/><span>Managing Director</span></p>
         <div className="team-img"><img src="assets/aboutimage/asheer-sir.png" alt=""/></div>
       </div>
      </div>
