@@ -91,7 +91,7 @@ function HomeBanner() {
       <> 
         <span className='sub-span'>Assured
         <br />
-        best <br />
+        best 
        
        fares</span>
       </>
@@ -99,7 +99,7 @@ function HomeBanner() {
     (
       <>
         <span className='sub-span'>24x7
-        <br />
+       
        Customer <br />
        
         Support</span>
@@ -109,13 +109,13 @@ function HomeBanner() {
       <>
         <span className='sub-span'>One Stop for
         <br />
-        All Travel <br />
+        All Travel 
      
         Services</span>
       </>
     )
   ].map((text, i) => (
-    <div key={i} className={`cont1 ${i !== 2 ? 'line' : ''}`}>
+    <div key={i} className={`cont1 ${i !== 2 ? 'line' : '' } homeline`}>
       <div className="circle">
         <img src={`assets/homeimg/${i + 1}.png`} alt="" />
       </div>
@@ -123,7 +123,7 @@ function HomeBanner() {
     </div>
   ))}
 </div>
-<div className="line1" style={{ marginLeft: '195px' }}></div>
+<div className="line1" style={{ marginLeft: '102px' }}></div>
         <div className="coln1 coln2">
           <div className="subscribe">
             <h6>Subscribe to our newsletter</h6>
