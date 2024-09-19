@@ -54,7 +54,7 @@ function Header() {
       <li className="services-dropdown">
                 <Link to={'/service'}> Services</Link>
                 <ul className="dropdown-content">
-                <li className='sugli'><Link to={'/service_cooperative'}>Coporate Travel</Link></li>
+                <li className='sugli'><Link to={'/service_cooperative'}>Corporate Travel</Link></li>
                   <li className='sugli'><Link to={"/ticketpage"}>Domestic & International Ticketing </Link></li>
                   <li className='sugli'><a href="/hotelpage">Hotel Booking</a></li>
                   <li className='sugli'><Link to={"/visapage"}>Passport Assistance </Link></li>
