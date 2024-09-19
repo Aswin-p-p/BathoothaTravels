@@ -75,6 +75,7 @@
   background: transparent;
   flex: 1;
   outline: none;
+  font-family: 'Aileron-Thin';
   }
   
   .txtEmail input::placeholder{
@@ -94,6 +95,7 @@
     justify-content: center;
     margin:10px 15px;
     font-family: 'Aileron-Light';
+    text-transform: uppercase;
   }
   .copyright p{
     text-align: center;

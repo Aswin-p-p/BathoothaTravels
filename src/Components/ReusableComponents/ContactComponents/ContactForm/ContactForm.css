@@ -87,7 +87,12 @@
   }
 
   /* responsivness */
-
+  @media (min-width: 1300px) and (max-width: 1440px) {
+    .CT-form input {
+      width: 232px;
+    }
+  }
+  
   @media(max-width:1024px){
     .CT-container{
       margin-top: 12%;
@@ -148,6 +153,7 @@
 }
 
 @media(max-width:400px){
+ 
     .CT-container{
         margin-top: 30%;
       }

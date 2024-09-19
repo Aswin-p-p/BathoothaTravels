@@ -21,7 +21,7 @@ function ContactLocation() {
       </div>
       <div className="vr-line"></div>
       <div className="contact">
-        <img src="assets/contactimage/call.png" alt=""/>
+        <img src="assets/contactimage/email.png" alt=""/>
         <p><a href="">info@bathoothatravel.com </a></p>
       </div>
       
